@@ -25,13 +25,13 @@ public class myEndPoints {
     return echo;
   }
 
-  @GetMapping("erDetFredag")
+  @GetMapping("/erDetFredag")
   public String echo() {
     String s = "Er det fredag?";
     return s;
   }
 
-  @GetMapping("erDetEgentligFredag")
+  @GetMapping("/erDetEgentligFredag")
   public String erDetEgentligFredag() {
 
     /*
